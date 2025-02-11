@@ -24,7 +24,9 @@ img {
 .buttons {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    align-items: center;
+    gap: 20px; /* Adds space between buttons */
+    margin-top: 20px;
 }
 
 button {
@@ -44,7 +46,6 @@ button {
 #noBtn {
     background-color: #ccc;
     color: black;
-    position: absolute;
 }
 
 .hidden {
