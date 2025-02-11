@@ -21,3 +21,4 @@ yesBtn.addEventListener("click", function () {
     container.classList.add("hidden");
     yesScreen.classList.remove("hidden");
 });
+//
